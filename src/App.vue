@@ -1,5 +1,6 @@
-// register
-Vue.component('vue-frame', {
+<script type="text/babel">
+import Vue from 'vue';
+export default Vue.component('vue-frame', {
   props: {
     url: {
       type: String,
@@ -50,5 +51,6 @@ Vue.component('vue-frame', {
 // create a root instance
 new Vue({
   name: 'vue-frame',
-  el: '#vue-frame'
+  el: '#app'
 })
+</script>
