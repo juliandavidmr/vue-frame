@@ -5,9 +5,6 @@ Vue.component('vue-frame', {
       type: String,
       required: true
     },
-    title: {
-      type: String
-    },
     text: {
       type: String,
       required: true
@@ -15,6 +12,10 @@ Vue.component('vue-frame', {
     frame: {
       type: String,
       required: true
+    },
+    type: {
+      type: String,
+      default: 'a'
     }
   },
   data: function () {
@@ -22,8 +23,8 @@ Vue.component('vue-frame', {
   },
   mounted: function () {},
   methods: {
-    cargariframe: function () {
-      //console.log("Iframe.......", this.url, this.frame);
+    loadIframe: function () {
+      //console.log("Iframe.......", this.url, this.frame, this.type);
       var iframe = document.getElementById(this.frame);
       iframe.src = this.url;
       iframe.onload = function () {
@@ -31,7 +32,20 @@ Vue.component('vue-frame', {
       }
     }
   },
-  template: `<a v-on:click="cargariframe()">{{text}}</a>`
+  render: function (createElement) {
+    return createElement(
+      this.type, // tag name
+      {
+        // DOM properties
+        domProps: {
+          innerHTML: this.text
+        },
+        on: {
+          click: this.loadIframe
+        }
+      })
+  },
+  //  template: `<${this.type} v-on:click="loadIframe()">{{text}}</${this.type}>`
 })
 
 // create a root instance
