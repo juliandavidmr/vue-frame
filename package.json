@@ -1,7 +1,7 @@
 {
   "name": "vue-frame",
   "description": "vue-frame",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "@juliandavidmr",
   "private": false,
   "main": "./src/main.js",
@@ -31,5 +31,13 @@
     "vue",
     "iframe",
     "component"
+  ],
+  "files": [
+    "dist/",
+    "src/",
+    "docs/",
+    "CONTRIBUTING.md",
+    "package.json",
+    "README.md"
   ]
 }

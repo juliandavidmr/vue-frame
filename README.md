@@ -4,13 +4,13 @@
 
 ### Usage
 
-This is a project template for [vue](https://github.com/vuejs).
+This is a project for [vue](https://github.com/vuejs).
 
 ```html
 <div id="vue-frame">
    <vue-frame text="VueJS" url="https://vuejs.org" frame="myframe" type="button" class="form-control"></vue-frame>
    <vue-frame text="Api Vue" url="https://vuejs.org/v2/api" frame="myframe" type="a"></vue-frame>
-   <br>
+   <br />
 
    <iframe id="myframe" width="800"></iframe>
 </div>
@@ -20,7 +20,7 @@ This is a project template for [vue](https://github.com/vuejs).
 
 The rendered elements look like this:
 
-<img src="./docs/gif.gif"/>
+<img src="https://raw.githubusercontent.com/juliandavidmr/vue-frame/master/docs/gif.gif"/>
 
 ### PropTypes
 
@@ -37,10 +37,10 @@ The rendered elements look like this:
 <vue-frame text="VueJS" url="https://juliandavidmr.github.io" frame="idframe" type="div" class="form-control"></vue-frame>
 ```
 
-### Fork It And Make Your Own
-
-You can fork this repo to create your own boilerplate.
-
+#### Use CDN
+```html
+<script src="https://unpkg.com/vue-frame@1.0.2/dist/vue-frame.js"></script>
+```
 
 ### Development
 
@@ -49,6 +49,8 @@ You can fork this repo to create your own boilerplate.
 |npm run build|Build|
 |npm run dev|Open browser dev|
 
-## License
+[**Contributing**](./CONTRIBUTING.md)
+
+### License
 
 MIT [@juliandavidmr](https://github.com/juliandavidmr)
