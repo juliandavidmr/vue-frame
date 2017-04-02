@@ -39,7 +39,7 @@ The rendered elements look like this:
 
 #### Use CDN
 ```html
-<script src="https://unpkg.com/vue-frame@1.0.2/dist/vue-frame.js"></script>
+<script src="https://unpkg.com/vue-frame@1.0.3/dist/vue-frame.js"></script>
 ```
 
 ### Development

@@ -1,8 +1,7 @@
 {
   "name": "vue-frame",
-  "description": "vue-frame",
-  "version": "1.0.2",
-  "author": "@juliandavidmr",
+  "description": "Dynamic component for rapid creation of interfaces",
+  "version": "1.0.3",
   "private": false,
   "main": "./src/main.js",
   "jsnext:main": "./src/main.js",
@@ -13,6 +12,18 @@
   "dependencies": {
     "vue": "^2.2.1"
   },
+  "author": {
+    "name": "Julian David",
+    "url": "https://github.com/juliandavidmr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliandavidmr/vue-frame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juliandavidmr/vue-frame/issues"
+  },
+  "homepage": "https://github.com/juliandavidmr/vue-frame#readme",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
