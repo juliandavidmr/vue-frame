@@ -1,0 +1,20 @@
+{
+  "prompts": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "vue-frame"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "A simple component Vue 2.0 for prototyping interfaces with iframes.",
+      "default": "A Vue.js plugin"
+    },
+    "author": {
+      "type": "string",
+      "label": "Author"
+    }
+  },
+  "completeMessage": "To get started:\n\n  cd {{src}}\n  npm install\n  npm run dev"
+}
