@@ -32,7 +32,7 @@ The rendered elements look like this:
 | `url` | Custom url that the component will load | `string` |  | ✅ |
 | `text` | Custom text | `string` |  | ✅ |
 | `frame` | Iframe element ID | `string` | | ✅ |
-| `type` | Name of the HTML tag to render | `string` | | |
+| `type` | Name of the HTML tag to render | `string` | `a` | |
 
 #### Example
 ```html

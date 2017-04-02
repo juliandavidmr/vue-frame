@@ -45,7 +45,6 @@ Vue.component('vue-frame', {
         }
       })
   },
-  //  template: `<${this.type} v-on:click="loadIframe()">{{text}}</${this.type}>`
 })
 
 // create a root instance
