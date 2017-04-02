@@ -1,3 +1,1 @@
-var vueframe = require('../dist/vue-frame');
-
-console.log("=>", vueframe);
+import vue_frame from '../';
