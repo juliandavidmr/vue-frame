@@ -2,6 +2,30 @@
 
 > A simple component Vue 2.0 for prototyping interfaces with iframes.
 
+
+### Install
+Using **npm:**
+```bash
+$ npm install --save vue-frame
+```
+
+Using **yarn:**
+```bash
+$ yarn add vue-frame
+```
+
+Import
+```js
+import VueFrame from 'vue-frame'
+export default {
+  components: { VueFrame },
+  data () {
+    return { /*...*/ }
+  },
+  methods: { /*...*/ }
+}
+```
+
 ### Usage
 
 This is a project for [vue](https://github.com/vuejs).
@@ -17,7 +41,6 @@ This is a project for [vue](https://github.com/vuejs).
 
 <script src="/dist/vue-frame.js"></script>
 ```
-
 The rendered elements look like this:
 
 <img src="https://raw.githubusercontent.com/juliandavidmr/vue-frame/master/docs/gif.gif"/>
@@ -41,6 +64,7 @@ The rendered elements look like this:
 ```html
 <script src="https://unpkg.com/vue-frame@1.0.3/dist/vue-frame.js"></script>
 ```
+See example [index.html](./index_cdn.html)
 
 ### Development
 
