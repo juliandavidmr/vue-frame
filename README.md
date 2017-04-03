@@ -1,7 +1,8 @@
 # Vue-frame
 
-> A simple component Vue 2.0 for prototyping interfaces with iframes.
+[![Build Status](https://travis-ci.org/juliandavidmr/vue-frame.svg?branch=master)](https://travis-ci.org/juliandavidmr/vue-frame)
 
+> A simple component Vue 2.0 for prototyping interfaces with iframes.
 
 ### Install
 Using **npm:**
@@ -43,7 +44,7 @@ This is a project for [vue](https://github.com/vuejs).
 ```
 The rendered elements look like this:
 
-<img src="https://raw.githubusercontent.com/juliandavidmr/vue-frame/master/docs/gif.gif"/>
+[![CURRENTLY RECORDING](https://raw.githubusercontent.com/juliandavidmr/vue-frame/master/docs/gif.gif)](https://github.com/juliandavidmr/vue-frame)
 
 ### PropTypes
 
@@ -64,7 +65,7 @@ The rendered elements look like this:
 ```html
 <script src="https://unpkg.com/vue-frame@1.0.3/dist/vue-frame.js"></script>
 ```
-See example [index.html](./index_cdn.html)
+See example with _cdn_ [index.html](./index_cdn.html)
 
 ### Development
 

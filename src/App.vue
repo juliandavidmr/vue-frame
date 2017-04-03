@@ -29,7 +29,7 @@ export default Vue.component('vue-frame', {
       var iframe = document.getElementById(this.frame);
       iframe.src = this.url;
       iframe.onload = function () {
-        console.log("iframe cargado...")
+        // console.log("iframe cargado...")
       }
     }
   },
