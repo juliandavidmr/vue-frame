@@ -1,6 +1,6 @@
 <script type="text/babel">
-import Vue from 'vue';
-export default Vue.component('vue-frame', {
+import Vue from "vue";
+export default Vue.component("vue-frame", {
   props: {
     url: {
       type: String,
@@ -16,24 +16,34 @@ export default Vue.component('vue-frame', {
     },
     type: {
       type: String,
-      default: 'a'
+      required: false,
+      default: "a"
+    },
+    default: {
+      type: String,
+      required: false,
+      default: false
     }
   },
-  data: function () {
-    return {}
+  data: function() {
+    return {};
   },
-  mounted: function () {},
+  mounted: function() {
+    if (this.default == 'true') {
+      this.loadIframe()
+    }
+  },
   methods: {
-    loadIframe: function () {
-      //console.log("Iframe.......", this.url, this.frame, this.type);
+    loadIframe: function() {
+      // console.log("Iframe:", this.url, this.frame, this.type);
       var iframe = document.getElementById(this.frame);
       iframe.src = this.url;
-      iframe.onload = function () {
+      iframe.onload = function() {
         // console.log("iframe cargado...")
-      }
+      };
     }
   },
-  render: function (createElement) {
+  render: function(createElement) {
     return createElement(
       this.type, // tag name
       {
@@ -44,13 +54,14 @@ export default Vue.component('vue-frame', {
         on: {
           click: this.loadIframe
         }
-      })
-  },
-})
+      }
+    );
+  }
+});
 
 // create a root instance
 new Vue({
-  name: 'vue-frame',
-  el: '#app'
-})
+  name: "vue-frame",
+  el: "#app"
+});
 </script>
