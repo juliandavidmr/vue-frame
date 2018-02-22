@@ -5,20 +5,24 @@
 [![npm](https://img.shields.io/npm/dt/vue-frame.svg)](https://www.npmjs.com/package/vue-frame)
 [![GitHub stars](https://img.shields.io/github/stars/juliandavidmr/vue-frame.svg?style=social&label=Star)](https://www.npmjs.com/package/vue-frame)
 
-> A simple component Vue 2.0 for prototyping interfaces with iframes.
+> A simple component Vue 2.x for prototyping interfaces with iframes.
 
-### Install
+## Install
+
 Using **npm:**
+
 ```bash
-$ npm install --save vue-frame
+npm install --save vue-frame
 ```
 
 Using **yarn:**
+
 ```bash
-$ yarn add vue-frame
+yarn add vue-frame
 ```
 
 Import
+
 ```js
 import VueFrame from 'vue-frame'
 export default {
@@ -45,6 +49,7 @@ This is a project for [vue](https://github.com/vuejs).
 
 <script src="/dist/vue-frame.js"></script>
 ```
+
 The rendered elements look like this:
 
 [![CURRENTLY RECORDING](https://raw.githubusercontent.com/juliandavidmr/vue-frame/master/docs/gif.gif)](https://github.com/juliandavidmr/vue-frame)
@@ -58,16 +63,20 @@ The rendered elements look like this:
 | `text` | Custom text | `string` |  | ✅ |
 | `frame` | Iframe element ID | `string` | | ✅ |
 | `type` | Name of the HTML tag to render | `string` | `a` | |
+| `default` | load site instantly mount the element | `boolean` | `false` | |
 
 #### Example
+
 ```html
 <vue-frame text="VueJS" url="https://juliandavidmr.github.io" frame="idframe" type="div" class="form-control"></vue-frame>
 ```
 
 #### Use CDN
+
 ```html
-<script src="https://unpkg.com/vue-frame@1.0.3/dist/vue-frame.js"></script>
+<script src="https://unpkg.com/vue-frame@1.0.6/dist/vue-frame.js"></script>
 ```
+
 See example with _cdn_ [index.html](./index_cdn.html)
 
 ### Development
