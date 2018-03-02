@@ -20,7 +20,7 @@ export default Vue.component("vue-frame", {
       default: "a"
     },
     default: {
-      type: String,
+      type: Boolean,
       required: false,
       default: false
     }
