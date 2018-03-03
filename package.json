@@ -1,7 +1,7 @@
 {
   "name": "vue-frame",
   "description": "Dynamic component for rapid creation of interfaces",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": false,
   "main": "./src/main.js",
   "jsnext:main": "./src/main.js",
