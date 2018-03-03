@@ -29,7 +29,7 @@ export default Vue.component("vue-frame", {
     return {};
   },
   mounted: function() {
-    if (this.default == 'true') {
+    if (this.default == true) {
       this.loadIframe()
     }
   },
